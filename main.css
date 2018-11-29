@@ -1,0 +1,109 @@
+/* Common Rules */
+section {
+    padding: 3.5rem 0 2rem;
+}
+
+/* Colors
+#fc4445
+#3feee6
+#55bcc9
+#97caef
+#cafafe
+ */
+
+/* Header */
+#header {
+    background-color: #fc4445;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+    letter-spacing: 0.008rem;
+}
+
+@media (min-width: 992px) {
+    #header h1 {
+        padding-top: 1.4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header h1 {
+        padding-top: 2rem;
+    }
+}
+
+#header a {
+    color: #cafafe;
+    transition: color 0.2s;
+    font-size: 1.25rem;
+}
+
+#header a:hover {
+    color: #3feee6;
+    transition: color 0.2s;
+}
+
+.logo-wrapper {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 90%;
+}
+
+/* About Section */
+#about img {
+    border-radius: 20px;
+}
+
+
+/* Why Us Section */
+#why-us {
+    background-color: #cafafe;
+}
+
+#why-us i {
+    font-size: 3rem;
+    padding: 0.5rem 0 1rem;
+}
+
+
+/* Services Section */
+.service-item {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.service-item-header {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.service-item-header i {
+    font-size: 2rem;
+}
+
+
+/* Contact Section */
+
+#contact {
+    background: linear-gradient(to bottom, #55bcc9 0%, #888 100%);
+    /* todo background color */
+}
+
+.contact-card {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.contact-card i {
+    font-size: 2rem;
+}
+
+#footer {
+    width: 100%;
+    background-color: #888;
+    color: aliceblue;
+}
