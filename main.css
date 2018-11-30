@@ -3,17 +3,9 @@ section {
     padding: 3.5rem 0 2rem;
 }
 
-/* Colors
-#fc4445
-#3feee6
-#55bcc9
-#97caef
-#cafafe
- */
-
 /* Header */
 #header {
-    background-color: #fc4445;
+    background-color: #3c617f;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -61,7 +53,7 @@ section {
 
 /* Why Us Section */
 #why-us {
-    background-color: #cafafe;
+    background-color: #a2d6ea;
 }
 
 #why-us i {
@@ -78,7 +70,7 @@ section {
 
 .service-item-header {
     width: 100%;
-    background-color: aliceblue;
+    background-color: #9ce;
 }
 
 .service-item-header i {
@@ -89,8 +81,7 @@ section {
 /* Contact Section */
 
 #contact {
-    background: linear-gradient(to bottom, #55bcc9 0%, #888 100%);
-    /* todo background color */
+    background: linear-gradient(to bottom, #8fc4ff 0%, #3c617f 100%);
 }
 
 .contact-card {
@@ -104,6 +95,6 @@ section {
 
 #footer {
     width: 100%;
-    background-color: #888;
+    background-color: #3c617f;
     color: aliceblue;
 }
